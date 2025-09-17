@@ -8,9 +8,9 @@ namespace Tyuiu.RagozinaAD.Sprint1.Task3.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 3;
-            double wait = 37.68;
+            double x = 1;
+            double y = 2;
+            double wait = 6.28;
             var res = ds.CylinderVolume(x,y);
             Assert.AreEqual(wait, res);
         }

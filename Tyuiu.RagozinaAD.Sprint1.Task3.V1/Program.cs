@@ -22,8 +22,8 @@ internal class Program
         Console.WriteLine("* ИСХОДНЫЕ ДВННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        double r = 5;
-        double h = 7;
+        double r = 1;
+        double h = 2;
         Console.WriteLine("Радиус r окружности = "+ r);
         Console.WriteLine("Высота h окружности = " + h);
 
