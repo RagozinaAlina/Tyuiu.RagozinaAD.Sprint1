@@ -5,7 +5,8 @@ namespace Tyuiu.RagozinaAD.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return 3.14 * r * r * h;
+            var degrees= 3.14 * r * r * h;
+            return Math.Round(degrees, 3);
         }
     }
 }
